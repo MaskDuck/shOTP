@@ -2,7 +2,7 @@
 shOTP is a program that implements 2FA apps' functionality on your terminal. It keeps itself lightweight.
 
 # Requirements
-Python (This program should works on Python 3.10, 3.8+ is good, no Python 2), with `pip`.
+Python (This program should works on Python 3.10, 3.8+ is good, no Python 2), with `pip`. <br>
 `typer` and `pyotp` module. This should get installed automatically if you haven't, when install.
 
 # Installation
