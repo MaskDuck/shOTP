@@ -73,7 +73,7 @@ def code(name: str) -> None:
 
 
 @app.command()
-def accounts(name: str) -> None:
+def accounts() -> None:
     for x in config["accounts"]:
         print(x["name"])
 
