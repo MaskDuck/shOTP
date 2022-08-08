@@ -85,7 +85,7 @@ def delete(name: str) -> None:
 
         confirm: Optional[Literal["y", "N"]] = input(
             "Do you really want to delete account named {}? This action is not reversible! [y/N]:".format(
-                account.name
+                account['name']
             )
         )
         if confirm.lower() == "n":
