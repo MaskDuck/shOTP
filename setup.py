@@ -9,7 +9,7 @@ classifiers = [
 
 setup(
     name="shotp",
-    version="0.0.0a1",
+    version="0.0.0a1.post1",
     description="A command line interface that implements 2FA apps' functionality.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
