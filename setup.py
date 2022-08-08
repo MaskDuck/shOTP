@@ -1,4 +1,3 @@
-from re import M
 from setuptools import setup
 
 classifiers = [
@@ -9,12 +8,12 @@ classifiers = [
 
 setup(
     name="shotp",
-    version="0.0.0a1.post1",
+    version="0.0.0a1.post2",
     description="A command line interface that implements 2FA apps' functionality.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     classifiers=classifiers,
     packages=["shotp"],
     keywords=["otp", "2fa"],
-    install_requires=["typer", "shotp"],
+    install_requires=["typer", "pyotp"],
 )

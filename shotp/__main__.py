@@ -51,7 +51,7 @@ def _add_account(code: str, name: str) -> None:
     config["accounts"].append({"code": code, "name": name})
 
     with open(config_dir, "w") as f:
-        f.write(json.dumps(config).decode("utf-8"))
+        f.write(json.dumps(config))
 
 
 @app.command()
@@ -96,7 +96,7 @@ def delete(name: str) -> None:
             config["accounts"].remove(account)
 
             with open(config_dir, "w") as f:
-                f.write(json.dumps(config).decode("utf-8"))
+                f.write(json.dumps(config))
     else:
         print("No account with the name {} has been found.".format(name))
 
